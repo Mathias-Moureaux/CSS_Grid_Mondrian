@@ -1,0 +1,37 @@
+.picture{
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-template-rows: 1fr 8fr 2fr 2fr ;
+	grid-gap: 20px;
+	height: 100vh;
+}
+
+.item{
+  background-color: #f9f9f9;
+  text-align: center; 
+  font-size: 50px;
+}
+
+.item2{
+  background : #ff0101;
+	grid-row : span 2;
+	grid-column : span 2;
+}
+
+.item4{
+	background : #0101fd;
+	grid-row: span 2;
+}
+
+.item5{
+	grid-row: span 2;
+}
+
+.item7{
+  background :#fff001;
+} 
+
+/* https://www.color-hex.com/color-palette/27086 */
