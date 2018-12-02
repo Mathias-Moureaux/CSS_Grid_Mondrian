@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
 .picture{
 }
 
@@ -44,11 +48,6 @@
       background : #0101fd;
       transform: rotateY(-180deg);
       text-align: center;
-
-      .flip-text{
-        color: white;
-        font-family: Helvetica, sans-serif;
-      }
     }
   }
 }
@@ -68,16 +67,20 @@
 
 .item7{
   background :#fff001;
-  font-size: 12px;
-  text-align: right;
-  padding: 0 10px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 900;
-  color :#30303a;
-} 
 
-.title{
-  font-style: italic;
-}
+  .title{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: right;
+    padding: 0 10px;
+    color :#30303a;
+  }
+
+  .artist{
+    font-style: normal;
+  }
+
+} 
 
 /* https://www.color-hex.com/color-palette/27086 */
